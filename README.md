@@ -36,3 +36,4 @@ aws ecr get-login-password --region us-east-2 | docker login --username AWS --pa
 If you have still access problem, attach ecr iam role with your ec2
 ```
 
+# aws-ci-cd
