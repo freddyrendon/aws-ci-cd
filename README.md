@@ -31,7 +31,7 @@ docker-compose version
 
 Configure ecr access on ec2 machine
 
-aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 699431367852.dkr.ecr.us-east-1.amazonaws.com/cloudageskill
+aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin your-ecr-registry-url
 
 If you have still access problem, attach ecr iam role with your ec2
 ```
